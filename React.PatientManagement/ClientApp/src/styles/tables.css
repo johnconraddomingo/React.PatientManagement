@@ -1,0 +1,52 @@
+﻿
+.table-condensed > thead > tr > th, 
+.table-condensed > tbody > tr > th, 
+.table-condensed > tfoot > tr > th, 
+.table-condensed > thead > tr > td, 
+.table-condensed > tbody > tr > td, 
+.table-condensed > tfoot > tr > td {
+    padding: 8px;
+}
+
+.table > thead > tr > th, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > tbody > tr > td, 
+.table > tfoot > tr > td {
+    border-top: 0;
+}
+
+.table > thead > tr > th {
+    border-bottom: 1px solid #ffd631;
+}
+
+th {
+    font-weight: normal;
+}
+
+.table-hover tbody tr:hover td, 
+.table-hover tbody tr:hover th {
+    background-color: #ffed94;
+}
+
+/*
+    Actions
+*/
+
+.actionLink {
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+.edit {
+    background-image: url(../img/edit.png);
+}
+.delete {
+    background-image: url(../img/delete.png);
+}

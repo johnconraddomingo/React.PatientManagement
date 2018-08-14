@@ -1,0 +1,77 @@
+h3 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+body {
+    font-family: Segoe UI;
+    font-size: 12px;
+    padding-top: 50px;
+}
+
+/*
+    Classes
+*/
+
+.body-padding {
+    padding-top: 10px;
+}
+
+.modal-content {
+    border-radius: 0;
+    margin: 50px;
+}
+
+.btn {
+    width: 120px;
+    border: none;
+    background-color: #8d9397;
+    background-image: none;
+    text-shadow: none;
+    border-radius: 0;
+    color: #ffffff;
+    
+}
+
+.btn:hover {
+    background-color: #ffd631;
+    color: #000;
+}
+
+/*
+    Modal
+
+*/
+.modal-header {
+    border-bottom: none;
+}
+.modal-footer {
+    text-align: left;
+    background-color: #fbfbfb;
+    border-top: none;
+}
+
+
+/*
+    Media Queries
+*/
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+}
+
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+
+@media (min-width:768px) {
+}
+
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+}

@@ -1,0 +1,96 @@
+body {
+    font-family: Segoe UI;
+    font-size: 12px;
+    padding-top: 50px;
+}
+
+/* Navbar*/
+
+.navbar-header {
+ 
+    /* height: 40px; */
+}
+.navbar-inverse {
+    background-color: #2D3032;
+    background-image: none;
+    background-image: none;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+    .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+        color: #ffd631;
+        background-color: #2D3032;
+        border-bottom-style: none;
+    }
+
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
+        background-color: #2D3032;
+        background-image: none;
+        background-image: none;
+        background-repeat: no-repeat;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+     
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #ffffff;
+    }
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: #2D3032;
+
+}
+.dropdown-menu {
+    border-radius: 0;
+}
+    .navbar-nav > li > a{
+        /* padding-top: 10px;
+        padding-bottom: 10px; */
+    }
+ 
+.dropdown-menu > li > a {
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.navbar-brand {
+     /* Optional Image Logo */
+}
+
+/*
+*   Media Queries
+*/
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+}
+
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+}
+
+@media (min-width:768px) { 
+  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+        color: #ffd631;
+        background-color: #2D3032;
+        border-bottom-color: #ffd631;
+        /* border-bottom-width: 2px;
+        border-bottom-style: solid; */
+    }
+}
+
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */   
+                          
+}
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+
+}
